@@ -120,6 +120,14 @@ a:hover{
     padding: 0px 0px;
 }
 
+.svg{
+    width: 1em;
+    display: inline;
+    
+    vertical-align: bottom;
+    transition-duration: .2s;
+}
+
 .question {
     padding: .25em;
     margin-top: .1em;
@@ -141,7 +149,24 @@ a:hover{
   .show {
     display: none;
     text-decoration: none;
-    color: #eceff4;
+    color: black;
+    filter: invert(92%) sepia(9%) saturate(911%) hue-rotate(192deg) brightness(107%) contrast(91%);
+    font-size: 36px;
+  }
+
+  .show:hover {
+    color: black;
+    filter: invert(68%) sepia(11%) saturate(797%) hue-rotate(259deg) brightness(88%) contrast(86%);
+  }
+
+  .hide:hover {
+    color: black;
+    filter: invert(68%) sepia(11%) saturate(797%) hue-rotate(259deg) brightness(88%) contrast(86%);
+  }
+
+  .hide {
+    filter: invert(92%) sepia(9%) saturate(911%) hue-rotate(192deg) brightness(107%) contrast(91%);
+    color: black;
     font-size: 36px;
   }
   
@@ -160,10 +185,7 @@ a:hover{
     text-decoration: none;
   
   }
-  .hide {
-    color: #eceff4;
-    font-size: 36px;
-  }
+
   
   @media print {
     .hide, .show {
