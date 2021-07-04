@@ -24,7 +24,7 @@ li{
 
 a{
     text-decoration: none;
-    color : #b48ead
+    color : #b48ead;
 }
 
 .files{
@@ -55,9 +55,15 @@ a{
     border-radius: 8px; 
     text-align: center;
     font-weight: bold;
-    font-size: 5.5vw;
+    font-size: 64px;
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+@media screen and (max-width: 1350px) {
+    .header {
+        font-size: 5.5vw;
+    }
 }
 
 .cardHeader {
