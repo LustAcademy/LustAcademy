@@ -128,7 +128,9 @@ a{
   
   .show {
     display: none;
-      text-decoration: none;
+    text-decoration: none;
+    color: #eceff4;
+    font-size: 36px;
   }
   
   .hide:target + .show {
@@ -145,6 +147,10 @@ a{
     display:inline;
     text-decoration: none;
   
+  }
+  .hide {
+    color: #eceff4;
+    font-size: 36px;
   }
   
   @media print {
