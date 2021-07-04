@@ -25,12 +25,12 @@ li{
 a{
     text-decoration: none;
     color : #5e81ac;
+    transition-duration: .2s;
 }
 
 a:hover{
     text-decoration: none;
     color : #b48ead;
-    transition-duration: .2s;
 }
 
 .files{
